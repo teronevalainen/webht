@@ -5,9 +5,88 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+.footer {
+  background-color: rgb(170, 98, 236);
+  color: #630017;
+  display: flex;
+  justify-content: center;
+  padding: 4px 10px;
+}
+
+.OneSnippet {
+  background-color: rgb(227, 209, 245);
+  color: #630017;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+  padding: 15px 20px;
+}
+
+.btn {
+  background-color: aquamarine;
+  box-align: center;
+  font-size: medium;
+  padding: 0.4rem;
+  margin: 0.3rem;
+}
+
+.inputs {
+  width: 50%;
+  margin: 15px;
+  border-color: rgb(129, 111, 138);
+  border-style: flex;
+  border-width: 1px;
+  height: 30px;
+}
+
+.listItem {
+  width: 95%;
+  margin: 6px;
+  text-align: center;
+  align-items: center;
+  padding: 4px;
+
+  background-color: #dfcaec;
+}
+
+.SnippetDescription {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  background-color: #dfcaec;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  color: rgb(92, 9, 9);
+  font-size: 20px;
+}
+
+.Toolbar {
+  background-color: #c2506a;
+  margin: auto;
+  width: 100%;
+
+}
+
+@media only screen and (max-width:600px) {
+  .listItem {
+    max-width: 65vw;
+  }
+
+  .inputs {
+    max-width: 65vw;
+  }
 }

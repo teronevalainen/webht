@@ -1,0 +1,23 @@
+PROJECT WORK WEB
+
+-- Installation:
+root:
+    -concurrently
+server:
+    -bcryptjs             
+    -cors
+    -dotenv
+    -express
+    -express-generator
+    -express-validator
+    -jsonwebtoken
+    -mongodb
+    -mongoose
+
+
+client:
+    -react
+    -react-router-dom
+    -@mui/material @emotion/react @emotion/styled
+    -http-proxy-middleware --save
+    -buffer

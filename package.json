@@ -9,7 +9,7 @@
     "dev:client": "cd client && npm start",
     "preinstall": "cd server && npm install",
     "dev:server": "cd server && npm run dev",
-    "build": "cd client && npm run build"
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\""
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/teronevalainen/webht/issues"
   },
-  "homepage": "https://github.com/teronevalainen/webht#readme"
+  "homepage": "https://github.com/teronevalainen/webht#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
 }
